@@ -244,6 +244,7 @@ fn entry() -> Result<(), ()> {
 }
 
 fn main() -> ExitCode {
+    println!("Yeah i can feel it");
     match entry() {
         Ok(()) => ExitCode::SUCCESS,
         Err(()) => ExitCode::FAILURE,
